@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--payment method -->
+   <div class="product-section">
+    
+        <div class="payment">
+
+            <div>
+                <h3>Your 50% Discount has been Applied</h3>
+                <p>Your Order Qualifies For <span>FREE SHIPPING</span> When Ordered TODAY.</p>
+            </div>
+            <h2>STEP 1: SELECT ORDER QUANTITY</h2>
+            <hr>
+            <div class="payment-icon">
+                    <input onclick="product1" id="product1" type="checkbox">
+                     <p id="price-1">50% OFF: 1Sutera Pillow <br> (Normally $100) </p>
+                     <p id="price-2">$49.97 Each Including  <br> $9.099 Shipping</p>
+                </div>  
+            <div class="payment-icon">
+                    <input onclick="product2" id="product2" type="checkbox">
+                     <p id="price-3">50% OFF: 2 Sutera Pillow <br> (Normally $100) </p>
+                     <p id="price-4">$59.97 Each Including  <br> $88.099 Shipping</p>
+                </div>  
+            <div class="payment-icon">
+                    <input onclick="product3" id="product3" type="checkbox">
+                     <p id="price-5">50% OFF: 3 Sutera Pillow <br> (Normally $100) </p>
+                     <p id="price-6">$489.97 Each Including  <br> $3.099 Shipping</p>
+                </div>  
+            <div class="payment-icon">
+                    <input onclick="product4" id="product4"  type="checkbox">
+                     <p id="price-7">50% OFF: 4Sutera Pillow <br> (Normally $100) </p>
+                     <p id="price-8">$77.97 Each Including  <br> $88.099 Shipping</p>
+                </div>  
+        </div>
+        <div class="payment">
+          <div class="payment-summary">
+            <h3>User & Product Information</h3>
+            <span>FirstName: <p id="frst-name"></p></span>
+            <span>LastName: <p id="lst-name"></p></span>
+            <span>Email: <p id="usr-email"></p></span>
+            <span>Country: <p id="usr-country"></p></span>
+            <span>Product: <p id="usr-product1"></p> <br> <p id="usr-product2"></p></span>
+          </div>
+            <form onsubmit="validateForm();return" id="signup">
+                <label for="fname">First Name</label>
+                <input  type="text" id="fname" name="fname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Your last name..">
+
+                <label for="lname">Email</label>
+                <input type="text" id="emal" name="email" placeholder="Your Email..">
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="australia">Australia</option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                  <option value="Bangladesh">Bangladesh</option>
+                </select>
+                <input class="buttonclick" type="submit"  value="Submit">
+              </form>
+        </div>
+    <div>
+
+    </div>
+   </div>
+
+
+    <script src="index.js">
+    </script>
+</body>
+</html>

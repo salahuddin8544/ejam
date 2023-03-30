@@ -1,0 +1,63 @@
+
+a{
+  text-decoration: none;
+}
+input:nth-of-type(:checked){
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+.product-section{
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.payment{
+    width: 40%;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+}
+.payment-summary{
+  
+}
+.payment-summary h3{
+  text-align: center;
+}
+.payment-icon{
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+}
+
+/* form section */
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit]{
+    width: 100%;
+    background-color: #a8af4c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]{
+    background-color: #97a045;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
